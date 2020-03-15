@@ -1,0 +1,110 @@
+/* CSS Document */
+#wrapper{margin-left:auto;
+         margin-right:auto;
+		 width:80%;
+		 background-color:#bcbaba;
+		 box-shadow: 10px 10px 10px #000033;}
+body{
+	 background-attachment:fixed;
+     font-family:"隶书";
+	 font-size:18px;}
+header{background-image:url(pm/beijing.jpg);
+	   text-align:center;
+	   padding:10px;}
+h1{font-size:42px;
+   font-weight:bold;
+   font-family:"华文行楷";
+   margin-bottom:0px;
+   color:#06C;
+   text-shadow:#FFF 4px 4px 4px;}
+h1 img{box-shadow:3px #000;
+       transform:rotate(3deg);
+	  -webkit-transform:rotate(3deg);
+	  -moz-transform:rotate(3deg);
+	  -o-transform:rotate(3deg);
+	  -ms-transform:rotate(3deg);}
+nav{float:left;
+	font-family:"华文中宋";
+	font-weight:bold;
+	font-size:14px;
+	padding:20px 5px 20px 0px;
+	width:165px;
+	position:fixed;}
+nav ul{list-style-type:none;}
+nav li{border: 1px solid #FFFFFF;padding-bottom:10px;padding:10px;}
+nav a{font-size:15px;
+	  transition:cocor 3s ease-out;
+	  -webkit-transition:color 3s ease-out;
+	  -moz-transition:color 3s ease-out;
+	  -o-transition:color 3s ease-out;}
+a{font-size:24px;
+  font-weight:bold;
+  text-decoration:none;}
+nav a:link{
+	   color:#F60;}
+nav a:visited{
+	      color:#006;}
+nav a:hover{
+	    color:#FFF;}
+#jieshao{font-family:"隶书";
+         font-size:18px;
+		 margin-left:170px;
+		 padding-top:40px;}
+#border{margin-left:170px;
+        background-color:#CCF;
+		border-radius:40px;
+		padding:30px;
+        }
+#border ul{list-style-type:square;}
+p{text-indent:2em;}
+span{color:#903;font-weight:bold;
+     font-size:22px;}
+table a{text-decoration:none;
+        text-align:center;}
+caption{font-size:24px;
+        font-weight:bold;
+		font-family:"楷体";
+		color:#096;}
+caption p{text-align:center;
+          font-family:"华文行楷";
+		  font-size:15px;}		 
+#contant{overflow:scroll;
+         background-color:#999;
+		 weight:300px;
+		 height:150px;}
+td img{float:left;}
+h3{font-family:"楷体";
+   color:#006;
+   font-size:24px;}
+label{float:left;display:block;
+      text-align:right;width:120px;
+	  padding-right:3px;}
+input,textarea{display:block;padding-bottom:20px;}
+figcaption{text-align:center;font-size:16px;font-weight:bold;font-style:italic;}
+footer{text-align:center;
+       font:20px "Times New Roman", Georgia;
+	   font-weight:bold;}
+@media only screen and (max-width: 768px){
+body{margin:0px;}
+#wrapper{width:auto;margin:0px;}
+nav{float:none;width:auto;padding:0px;position:absolute;}
+nav ul{text-align:center;}
+nav li{display:inline;padding:0.75em 0em;}
+#contant,#border,#jieshao{margin-left:0px;}
+footer{margin-left:0px;font-size:16px;}
+h1 img{display:none;}
+td{display:block;width:auto;}
+}
+@media only screen and (max-width: 480px){
+body{margin:0px;}
+#wrapper{width:auto;margin:0px;}
+nav{padding:2px;}
+nav li{display:inline-block;padding:0.75em 0em;text-align:center;background-color:#FFF;
+       box-shadow:#000 4px 4px 4px;margin-bottom:3px;}
+nav a{display:block;}
+#contant,#border,#jieshao{margin-left:0px;}
+#border,#jieshao{padding-top:200px;}
+footer{margin-left:0px;font-size:16px;}
+h1 img{display:none;}
+table{display:block;width:auto;}
+} 
